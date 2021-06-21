@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frame_layout">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TopCenter"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="top|center"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TopEnd"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="top|end"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TopStart"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="top|start"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CenterStart"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="center|start"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CenterEnd"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="center|end"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BottomStart"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="bottom|start" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BottomEnd"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="bottom|end" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="bottom|center" />
+
+</FrameLayout>
