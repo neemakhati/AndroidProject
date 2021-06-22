@@ -6,14 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Frame_layout">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TopCenter"
-        android:textSize="20sp"
-        android:background="#f1f1f1"
-        android:layout_gravity="top|center"/>
 
     <TextView
         android:id="@+id/textView6"
@@ -32,6 +24,15 @@
         android:textSize="20sp"
         android:background="#f1f1f1"
         android:layout_gravity="top|start"/>
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TopCenter"
+        android:textSize="20sp"
+        android:background="#f1f1f1"
+        android:layout_gravity="top|center"/>
 
     <TextView
         android:id="@+id/textView14"
@@ -86,5 +87,20 @@
         android:textSize="20sp"
         android:background="#f1f1f1"
         android:layout_gravity="bottom|center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_gravity="top|center"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_gravity="bottom|center_horizontal"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 
 </FrameLayout>
