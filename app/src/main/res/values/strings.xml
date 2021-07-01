@@ -8,4 +8,14 @@
     <string name="invalid_confirmation">Enter valid confirmation</string>
     <string name="list_view_example">List View Example</string>
     <string name="todo">TODO</string>
+    <string name="power_workshop">Power Workshop</string>
+    <string name="list_view">list view</string>
+    <string name="relative_layout">Relative layout</string>
+    <string name="linear_layout">linear layout</string>
+    <string name="power_workshop_2021">Power Workshop 2021</string>
+    <string name="frame_layout">frame layout</string>
+    <string name="form_validation">FORM VALIDATION</string>
+    <string name="table_layout">TABLE LAYOUT</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="basic_android_development">Basic Android Development</string>
 </resources>
