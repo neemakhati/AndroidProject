@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">AndroidDev</string>
+    <string name="invalid_name">Please enter valid name</string>
+    <string name="invalid_number">Please enter valid number.</string>
+    <string name="invalid_email">Please enter valid mail</string>
+    <string name="invalid_website">"Please enter valid website "</string>
+    <string name="invalid_password">Enter valid password</string>
+    <string name="invalid_confirmation">Enter valid confirmation</string>
+    <string name="list_view_example">List View Example</string>
+    <string name="todo">TODO</string>
 </resources>
