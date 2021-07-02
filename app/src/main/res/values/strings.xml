@@ -18,4 +18,5 @@
     <string name="table_layout">TABLE LAYOUT</string>
     <string name="constraint_layout">Constraint Layout</string>
     <string name="basic_android_development">Basic Android Development</string>
+    <string name="linearlayout">Linear Layout</string>
 </resources>
