@@ -81,5 +81,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Intent obj =new Intent(MainActivity.this,Linear_layout.class);
+        obj.putExtra("destination","Linear Layout passed from intent");
+        startActivity(obj);
+
     }
 }
