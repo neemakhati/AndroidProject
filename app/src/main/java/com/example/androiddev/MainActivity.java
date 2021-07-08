@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Button constraintLayout = findViewById(R.id.constraintLayout);
         Button formValid = findViewById(R.id.formValid);
         Button listExample = findViewById(R.id.list);
+        Button recycleView=findViewById(R.id.recyclerlist);
 
 
 
@@ -31,6 +32,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent linearIntent = new Intent(MainActivity.this,Linear_layout.class);
                 startActivity(linearIntent);
+            }
+        });
+
+        recycleView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent recycleIntent = new Intent(MainActivity.this,Recylerlist.class);
+                startActivity(recycleIntent);
             }
         });
 
@@ -81,9 +90,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        Intent obj =new Intent(MainActivity.this,Linear_layout.class);
-        obj.putExtra("destination","Linear Layout passed from intent");
-        startActivity(obj);
+//        Intent obj =new Intent(MainActivity.this,Linear_layout.class);
+//        obj.putExtra("destination","Linear Layout passed from intent");
+//        startActivity(obj);
 
     }
 }
